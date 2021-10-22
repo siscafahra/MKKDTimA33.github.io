@@ -1,0 +1,341 @@
+*{
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .clear{
+    clear: left;
+  }
+
+  /* Add CSS for container */
+.container{
+    max-width:1170px;
+    width:100%;
+    padding : 0 15px;
+    margin : 0 auto;
+    
+  }
+
+
+  /* Add CSS for top-wrapper */
+.top-wrapper{
+    padding-top:180px;
+    padding-bottom:100px;
+    background-image:url("images/kue.png");
+    background-size:cover;
+    color:white;
+    text-align: center;
+  }
+
+  /* Add CSS for <h1> tags within top-wrapper */
+.top-wrapper h1{
+   /* opacity:0.7;*/
+    font-size:45px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing:5px;
+    margin-bottom:10px;
+  }
+  
+  
+  /* Add CSS for <p> tags within top-wrapper */
+  .top-wrapper h2{
+    /*opacity:0.7;*/
+    margin-bottom:3px;
+    font-family: cursive;
+    font-size: 20px;
+  }
+
+  /* Add CSS for btn */
+.btn{
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left:24px;
+    padding-right:24px;
+    color:white;
+    display:inline-block;
+    opacity:0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  /* Add CSS for btn on hover */
+.btn:hover{
+    opacity:1;
+  }
+  
+  /* Change fa's margin-right to 5px */
+.fa{
+  margin-right:5px;
+}
+  
+  /* Add CSS for signup */
+  .signup{
+    background-color:#239b76;
+  }
+  
+  
+  /* Add CSS for facebook */
+  .facebook{
+    background-color:#3b5998;
+    margin-right:10px;
+  }
+  
+  
+  /* Add CSS for twitter */
+  .twitter{
+    background-color:#55acee;
+  }
+  
+  
+  /* Add CSS for btn-wrapper */
+  .btn-wrapper{
+    margin:20px 0;
+    
+  }
+  
+  
+  /* Add CSS for <p> tags inside btn-wrapper */
+  .btn-wrapper p{
+    margin:10px 0;
+    
+  }
+
+/* Add CSS for <header> tags */
+header {
+  width: 100%;
+  height: 110px;
+  margin-top: -10px;
+  background-color: rgba(34, 49, 52, 0.9);
+  position:fixed;
+  z-index: 10;
+}
+
+
+.logo {
+  width: 300px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-top: 20px;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 100%;
+}
+
+.nav-item ul {
+  display: flex;
+  width: 400px;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item li .home {
+  font-size: 14px;
+}
+
+.nav-item ul li {
+
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 10px;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+
+.item-list li a {
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.5s ease-in;
+}
+
+.item-list li a:hover, .footer-links a:hover {
+  color: rgba(168, 18, 18, 0.781);
+  font-weight: bold;
+  
+}
+
+  .lesson-wrapper {
+    padding-bottom : 80px ;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align:center;
+  }
+
+  .lesson-wrapper2 {
+    padding-bottom : 80px ;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align:center;
+  }
+
+
+  /* Add CSS for heading */
+.heading{
+    padding-top: 60px;
+  padding-bottom: 30px;
+  color:#5f5d60;
+  }
+  
+  /* Add CSS for <h2> tags inside heading */
+  .heading h2{
+    font-weight:normal;
+    font-style: oblique;
+    font-family:'segoe ui';
+    font-size:xx-large;
+  }
+  
+  /* Add CSS for lesson */
+.lesson{
+    float:left;
+    width:25%;
+  }
+
+  /* Add CSS for lesson-icon */
+.lesson-icon{
+    position:relative;
+   
+  }
+
+  .img-cake{
+    width: 200px; 
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  /* Add CSS for <p> tags inside lesson-icon */
+
+.lesson-icon p{
+    position:absolute;
+  top:90px;
+  width:100%;
+  color:white;
+    
+  }
+
+  /* Add CSS for txt-contents */
+.txt-contents{
+    width:80%;
+    display:inline-block;
+    margin-top:5px;
+    font-size:15px;
+    color:#b3aeb5;
+  }
+
+/* Add CSS for jdl-contents */
+.jdl-contents{
+    width:80%;
+    display:inline-block;
+    margin-top:20px;
+    font-size:20px;
+    color:#b3aeb5;
+}
+
+ /* Add CSS for btn-beli */
+.btn-beli{
+    margin:20px 0;
+    
+  }
+
+
+  /* Add CSS for button*/
+  .button{
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left:24px;
+    padding-right:24px;
+    color:black;
+    display:inline-block;
+    opacity:0.8;
+    border-radius: 4px;
+  }
+/* Add CSS for beli*/
+  .beli{
+    background-color:#239b76;
+  }
+  /* Add CSS for button:hover*/
+  .button:hover{
+    opacity:1;
+  }
+
+  /* Tambahkan CSS untuk tag <img> yang berada didalam <footer> */
+  footer img {
+    width:200px;
+  }
+  
+  /* Tambahkan CSS untuk tag <p> yang berada didalam <footer> */
+  /* footer p {
+    font-size:12px;
+  } */
+  
+  /* Tambahkan CSS untuk tag <footer> */
+  footer {
+    padding-top:30px;
+    background-color: rgba(34, 49, 52, 0.9);
+  }
+
+  .footer-right {
+    float: right;
+  }
+
+  .footer-right p {
+    color: #8f9296;
+    font-size: 15px;
+    margin: 0;
+  }
+  
+  .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }
+
+  .footer-by{
+    color: #8f9296;
+    font-size: 15px;
+    margin: 0;
+  }
