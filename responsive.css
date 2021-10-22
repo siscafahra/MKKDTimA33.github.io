@@ -24,7 +24,13 @@
     footer{
       text-align:center;
     }
-
+.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }
     .btn{
         width:100%;
         text-align: center;
